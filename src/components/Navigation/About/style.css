@@ -1,0 +1,15 @@
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animated-image {
+  animation: spin 20s linear infinite;
+}

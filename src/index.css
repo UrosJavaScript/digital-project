@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1.5;
+}
+
+.wrapper {
+  @apply lg:container lg:mx-auto max-lg:mx-6;
+}
